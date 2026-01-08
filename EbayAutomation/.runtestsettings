@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- multiple .runsettings files can be added for parallel run on different browsers -->
+<RunSettings>
+  <Playwright>
+    <BrowserName>chromium</BrowserName>
+    <LaunchOptions>
+      <Headless>true</Headless> 
+      <SlowMo>5000</SlowMo>     <!-- 5 second delay between actions, overrides bot check -->
+    </LaunchOptions>
+  </Playwright>
+</RunSettings>
