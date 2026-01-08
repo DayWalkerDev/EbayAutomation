@@ -15,9 +15,9 @@ Built with **Playwright .NET**, **NUnit**, **Allure Reports**.
 
 ## Architecture
 
-`BasePage`: SmartClick/SmartFill, retry, screenshot attachment to Allure
-Page classes: Business logic only
-Test: Clean E2E flow with Allure steps
+- `BasePage`: SmartClick/SmartFill, retry, screenshot attachment to Allure
+- Page classes: Business logic only
+- Test: Clean E2E flow with Allure steps
 
 
 ## Features
